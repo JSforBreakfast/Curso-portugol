@@ -1,2 +1,2 @@
-# Curso-em-v-deo
+# Curso-em-video
 linhas de código 
