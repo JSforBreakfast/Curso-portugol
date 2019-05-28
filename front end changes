@@ -2,4 +2,8 @@ document.body.style.background = 'black';
 
 document.querySelector('something').somestuff = 'whatever';
 
-document.querySelector('something').style.filter = "grayscale (100%)";
+document.querySelector('something').style.filter = 'grayscale (100%)';
+
+document.querySelector('something').style.visibility = "hidden";
+
+
