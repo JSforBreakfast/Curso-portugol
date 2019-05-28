@@ -1,0 +1,5 @@
+document.body.style.background = 'black';
+
+document.querySelector('something').somestuff = 'whatever';
+
+document.querySelector('something').style.filter = "grayscale (100%)";
