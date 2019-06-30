@@ -1,17 +1,19 @@
 algoritmo "semnome"
 var
 
-imp, indice, juros, parc, total : Real
+emprestimo, juros, parcelas, total,taxa, prestacao : Real
 
 inicio
- escreva("qual o valor do emprestimo? R$")
-      leia(imp)
-      escreva ("qual o indice em decimos? ")
-      leia(indice)
-      juros <- imp*indice
-      escreva("quantas parcelas? ")
-      leia(parc)
-      total <- (imp+juros)/parc
-      escreva("vou pagar ",parc," parcelas de R$",total:4:2)
-
+  escreva("quantia do emprestimo? ")
+         leia(emprestimo)
+         escreva("taxa? ")
+         leia(taxa)
+         escreva("parcelas? ")
+         leia(parcelas)
+         juros <- emprestimo * (taxa/100)
+         total <- emprestimo + juros
+         prestacao <- total / parcelas
+         Escreval("Juros de: R$ ", juros)
+         Escreval("Deverei pagar ", parcelas, " parcelas de: R$ ", prestacao)
+         Escreval("Totalizando: R$ ", total)
 fimalgoritmo
