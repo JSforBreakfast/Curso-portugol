@@ -1,6 +1,3 @@
-algoritmo "Fatorial"
-var
-c, n, f: inteiro
 algoritmo "NumeroPrimo"
 var
 c, n: inteiro
