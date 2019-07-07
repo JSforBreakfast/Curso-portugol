@@ -18,23 +18,23 @@ inicio
               escreva("Nota de ", aluno, ": ")
               leia(n1)
               se (contador = 1) entao
-                maiorNota := N1
-                menorNota := N1
-                MelhorAluno:= Aluno
+                maiornota := n1
+
+                melhoraluno:= Aluno
                 piorAluno:= Aluno
-                Se (N1 > maiorNota)entao
-                   maiorNota <- N1
-                   MelhorAluno <- Aluno
-                Senao
-                   Se (N1 < menorNota)entao
-                     menorNota <- N1
-                     piorAluno <- Aluno
-                   Fimse
-                Fimse
-              Fimse
-              Contador <- Contador + 1
-      FimEnquanto
-      Escreval("--------------------")
-      Escreval("O melhor aproveitamento foi de ", MelhorAluno, " com a nota de ", maiorNota:3:1)
-      Escreva("O pior aproveitamento foi de ", piorAluno, " com a nota de ", menorNota:3:1)
+                se (n1 > maiornota)entao
+                   maiornota <- n1
+                   melhoraluno <- aluno
+                //senao
+                   //Se (n1 < menornota)entao
+                    // menornota <- n1
+                     //pioraluno <- aluno
+                   fimse
+                fimse
+             // fimse
+              contador <- contador + 1
+      fimenquanto
+      escreval("--------------------")
+      escreval("O melhor aproveitamento foi de ", melhoraluno, " com a nota de ", maiornota:3:1)
+      //escreva("O pior aproveitamento foi de ", pioraluno, " com a nota de ", menornota:3:1)
 fimalgoritmo
