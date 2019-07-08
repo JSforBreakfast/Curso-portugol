@@ -28,5 +28,4 @@ limpatela
 ate(resposta = "n")
 escreval(rasta, " homens de rasta.")
 escreval(afro, " mulheres de afro.")
-
 fimalgoritmo
