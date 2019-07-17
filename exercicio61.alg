@@ -21,6 +21,6 @@ limpatela
 escreval("listagem de alunos")
 escreval("---------------------------")
 para i <- 1 ate 4 faca
-escreval(nome[i]:15, m[i])
+escreval(nome[i]:15, m[i]4:1)
 fimpara
 fimalgoritmo
